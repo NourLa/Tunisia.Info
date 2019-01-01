@@ -1,0 +1,55 @@
+
+.consult-article
+{height: 2000px;padding: 5% 5%;
+    background-image: url('https://lonelyplanetimages.imgix.net/a/g/hi/t/38b3e687149e9cad2b25041a812250fa-tunis.jpg?sharp=10&vib=20&w=2000') ; 
+    background-attachment:fixed;
+    background-repeat: no-repeat; 
+        background-size: 100% !important;
+        text-align: left; }
+        .messagesListDiv{display: flex;}
+.accordion.ui.styled{    width: 95%;
+    margin: 6% 2%;
+    height: 634px;} 
+    form {
+        background-color: white;
+        height: 1457px; padding-top: 2%}
+.Articles-list-Admin{ height: 1000px;}
+.productItem-container{    display: flex;
+    justify-content: space-between;
+    width: 50%; 
+    margin-left: 20%;}
+.article-name{font-size: 18px; color: black; margin-left: 0%; 
+    font-weight: 500; }
+.ui.styled.accordion .active.title {font-size: 22px}
+.ButtonConsult{   margin-left: 0%!important;
+    font-size: 11px;
+    font-weight: 600;
+    color:teal!important;
+    border-color: teal !important;}
+.Button-consult{
+        margin-left: 38%;
+        margin-top: 3%;
+    }
+.btn.btn-outline-default.Ripple-parent.ButtonConfimer{       margin-left: 0%!important;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    background-color: transparent !important;
+}
+.btn.btn-outline-default.Ripple-parent.ButtonAnnuler{  margin-left: 0%!important;
+    font-size: 20px;margin-left: 0%!important;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    background-color: transparent !important; }
+.shadow-box-topîc {margin-left: 35%;}
+.shadow-box-core{        background-color: rgb(255,255,255,0.5)!important; margin-top: -2%;}
+.boxupload{margin-top: 6%;}
+.labeltitle label{font-size: 50px!important;}
+.MuiButtonBase-root-79.MuiButton-root-53.MuiButton-contained-64.MuiButton-containedSecondary-66.MuiButton-raised-67.MuiButton-raisedSecondary-69.LoginButton
+{ 
+    margin-top: 3%;
+    margin-left: 5%;
+}

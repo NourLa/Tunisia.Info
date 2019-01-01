@@ -1,0 +1,33 @@
+.App {
+    background-image: url('http://lonelyplanetimages.imgix.net/a/g/hi/t/73ccdc3cf84e95760c324303a5c91ad0-tunisia.jpg?h=768&sharp=10&vib=20') ; 
+    background-attachment:fixed;
+    background-repeat: no-repeat; 
+        background-size: 100% !important;
+        text-align: left; 
+}
+.consult-article
+{height: 1500px;margin: 3% 5%;}
+.accordion.ui.styled{    width: 95%;
+    margin: 6% 2%;
+    height: 634px;}
+.Articles-list-Admin{ height: 1000px;}
+.productItem-container{display: flex;
+justify-content: space-around}
+.article-name{font-size: 18px; color: black; margin-left: 0%; 
+    font-weight: 500; }
+.ui.styled.accordion .active.title {font-size: 22px}
+.ButtonConsult{   margin-left: 0%!important;
+    font-size: 11px;
+    font-weight: 600;
+    color:teal!important;
+    border-color: teal !important;}
+.btn.btn-outline-default.Ripple-parent.ButtonConfimer{   margin-left: 0%!important;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgba(255, 172, 19, 0.945) !important;
+    border-color: rgba(255, 172, 19, 0.945)  !important;}
+.btn.btn-outline-default.Ripple-parent.ButtonAnnuler{  margin-left: 0%!important;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgba(245, 65, 20, 0.945)!important;
+    border-color: rgba(245, 65, 20, 0.945) !important; }

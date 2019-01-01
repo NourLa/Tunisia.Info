@@ -1,0 +1,9 @@
+/***************************************AboutTransportImage********************************************/
+.tooblar-style{display: flex; justify-content: space-around; flex-wrap: wrap;padding:2% 3%; z-index: -10; }
+.image{min-height: 15rem; min-width: 30rem;}
+.transportImageBloc{min-width: 30rem; margin: 2% 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ui.card{min-width: 30rem;}
+.card>.content>.header, .ui.card>.content>.meta+.description{ font-family: 'Rouge Script'; text-align: center;  }
+.About-Tunisia-Transport{text-align: center;  z-index: -10;padding: 1% 1%; font-family: 'Trocchi';}
+

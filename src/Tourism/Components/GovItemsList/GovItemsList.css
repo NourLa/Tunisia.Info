@@ -1,0 +1,10 @@
+.GovItems{
+  display: flex; flex-wrap: wrap; justify-content: center;
+}
+.GovItems h1{width: 100vw; text-align: center;}
+  .card {
+    max-width:  100%; margin: 1%;
+  }
+  .media {
+    height: 140px;
+  }

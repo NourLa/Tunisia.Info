@@ -1,0 +1,150 @@
+.MuiTypography-root-65.MuiTypography-body1-74{
+    padding: 8% 7%;
+    font-size: 16px;
+}
+.as-item__navigator{
+color: black;
+text-decoration: underline;
+cursor: pointer;
+ color: #d54d7b; font-family: "Great Vibes", cursive; font-size: 16px; line-height: 39px; font-weight: normal; margin-bottom: 0px;  text-align: center; text-shadow: 0 1px 1px #fff;
+}
+
+.as-items.as-items--navigator,  .as-item__content
+{letter-spacing: 9px;
+
+    line-height: 39px;}
+
+
+    .AddArticleTitle{
+        color: #fff;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        border: 5px solid white;
+        width: 50%;
+        font-family: 'Droid serif', serif;
+        margin: 2% 3%;
+    }
+    .MuiAppBar-colorPrimary-9 {
+        background-color: teal !important;
+    }
+    .MuiPrivateTabIndicator-colorSecondary-64 {
+        background-color: #bd9a29 !important;
+        
+    }
+    
+    .MuiTab-label-57::selection{
+        background-color: #bd9a29 !important;
+    }
+   .label-introduction{
+       height: 271px;
+       width: 100%;
+   }
+
+
+
+    /* Search Button  */
+    .ui.fluid.search{ margin-left: 83%;
+    margin-top: -4%;}
+
+    .fileUploader {
+        width: 100%;
+    }
+ 
+.fileContainer {
+    width: 494%;
+    background: transparent;}
+
+        /* file AddArticle */
+  .MuiPrivateNotchedOutline-root-159.MuiOutlinedInput-notchedOutline-136{
+    height: 500%;
+}
+.md-form {  background-color: rgb(255,255,255,0.3); width: 100%;}
+.md-form .md-textarea.form-control{width: 99%!important;padding:1%}
+.md-form label {
+    color: teal;
+    font-size: 17px;
+    left: 28px;
+    font-weight: 500;
+}
+.Form-Add{height: 1254px!important; width: 100%!important;}
+.form-control{width: 90%;}
+.shadow-box-sommaire {
+    margin-left: 2%;
+    height: 299px;
+    width: 27%;
+    color: black;
+    background-color: rgb(255,255,255,0.3);
+    border: 2px solid teal;
+    padding: 3% 2%;}
+    
+    .fileContainer p{     font-size: 15px;}
+    /* .shadow-box-upload{ margin-left: 2%;
+        height: 357px;
+        width: 32%;
+        color: black;
+        background-color: white;
+        border: 2px solid teal;
+        padding: 3% 2%;} */
+    .shadow-box-topîc {
+        margin-left: 9%;
+        height: 299px;
+        width: 60%;
+        color: black;
+        background-color: rgb(255,255,255,0.3);
+        border: 2px solid teal;
+        padding: 1% 1%;}
+.shadow-box-core{
+    margin: 2%;
+    height: 546px;
+    width: 96%;
+    color: black;
+    background-color: rgb(255,255,255,0.3);
+    border: 2px solid teal;
+    padding: 0% 2%;
+}
+.section2-addArticle{ display: flex;}
+.MuiPrivateNotchedOutline-root-53.MuiOutlinedInput-notchedOutline-30
+{padding-left: 40.125px;
+height: 219px;
+color: black;
+border-color: black;}
+    .ui.ordered.list{color: black;
+    font-size: 16px;
+    font-weight: 600;}
+    .shadow-box-titlearticle {
+        width: 27%;
+        margin-left: 63%;
+    }
+    .md-textarea.form-control{
+        background-color: transparent;
+        width: 27%;
+        height: 42px;
+    }
+.ui.segment.active.tab{
+    background-color: rgb(255,255,255,0.1)!important;height: 1479px}
+.Section2 {    margin: 2% 3%;}
+.Tunisia-Articles{background-image: url('http://lonelyplanetimages.imgix.net/a/g/hi/t/73ccdc3cf84e95760c324303a5c91ad0-tunisia.jpg?h=768&sharp=10&vib=20') ; 
+    background-attachment:fixed;
+    background-repeat: no-repeat; 
+        background-size: 100% !important;}
+        .fileContainer .chooseFileButton {
+            background: teal;
+        }
+.Button.Submit.Add{ 
+    background-color: white !important;
+    margin-left: 52%;
+    width: 58%;
+    font-size: 16px;
+    font-weight: 600;
+    color: teal!important;
+    border-color: teal !important;
+}
+ .fileUploader {
+             width: 22% !important; 
+        }
+.cate-text-remain {
+            margin-top: 2px;
+            line-height: 25px;
+            padding-left: 4px;
+        }

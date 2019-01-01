@@ -1,0 +1,34 @@
+.mainContainerTourism{
+/* width: '100%'; */
+  flex-grow: 1; 
+  background-image: 
+  url('http://lonelyplanetimages.imgix.net/a/g/hi/t/96b6657bdea025c8d72d59658bba360f-tunisia.jpg?h=768&sharp=10&vib=20');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 1937px;
+  background-size: 100% !important;
+    
+} 
+.mainTitle{
+  padding: 2% 0;
+  border: solid 2px white; color:white;
+  text-align: center;
+}
+.MuiPrivateTabIndicator-colorSecondary-70 {
+  background-color: #fd7e14 !important;
+}
+.row { margin-left: 0% !important;}
+.ContainerTabs-search-4{ top :8% !important;}
+.container.govContainer{border-color: teal;}
+.GovItems{
+  display: flex; flex-wrap: wrap; justify-content: center;  
+  background: url(https://www.worldtravelguide.net/wp-content/uploads/2017/03/shu-Tunisia-SidiBouSaid-760300645-1440x823.jpg) fixed no-repeat;
+  background-size: cover;
+}
+.GovItems h1{width: 100vw; text-align: center;}
+  .card {
+    max-width:  100%; margin: 1%;
+  }
+  .media {
+    height: 140px;
+  }

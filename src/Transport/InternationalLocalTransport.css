@@ -1,0 +1,14 @@
+/*.LocalTransportStation{
+    background-image: url("https://www.inmotionlog.com/wp-content/uploads/2018/03/MAP.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;}*/
+.image img{max-height: 30rem;width: 100%;}    
+.LocalTransport{max-width: 100%;z-index: 5;;background-color: rgba(255, 255, 255, 0.9);}    
+.text{margin-top: -20%; text-align: center;}
+
+.AboutLocalTransports{max-width: 60%;margin: 0% 20%; margin-top: 20%;}
+.AboutLocalTransports h1{text-align: center;font-weight: 300;font-family: 'Trocchi'; color: #747474;}
+.InterLocalTransportText{font-weight: 600;font-family: 'Trocchi'; color: #747474;text-align: center;}
+
+.ButtonBases-root-1,.ButtonBases-root-47{display: flex; justify-content: center; z-index: 10;}

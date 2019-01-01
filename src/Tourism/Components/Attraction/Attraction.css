@@ -1,0 +1,31 @@
+.App{font-size: 150%; font-weight: 400;}
+.AttractionContainer{
+ padding: 2%; display: flex; flex-direction: column; margin-top: 2%;
+ background-color: rgba(255, 255, 255, .6)
+ 
+
+}
+.attractionMainTitle{
+  text-align: center; color: teal; border: double 8px teal; padding: 1%; margin-bottom: 2%;
+}
+.mainImage{
+  width: 60%; border: solid 3px teal; border-radius: 7px; align-self: center; 
+}
+.desc{
+  align-self: center;
+}
+.secTitle{
+  text-decoration: underline; color: teal;
+}
+.contLabel{
+  font-weight: bold;
+}
+.contVal{
+  font-size: 110%
+}
+.images{
+  display: flex; flex-wrap: wrap; justify-content: center;
+}
+.images img{ 
+  height: 180px; margin: 1%;
+}

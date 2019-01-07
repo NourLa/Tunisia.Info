@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import { render } from "react-dom";
+import { MDBContainer, MDBRow,MDBCol,MDBBtn } from 'mdbreact';
 import { renderToString } from "react-dom/server";
 import jsPDF from "jspdf";
 import Prints from './PrintArticleList'
@@ -31,9 +32,9 @@ const print = (p) => {
 class PrintArticle extends Component {
    render() {   let p=this.props.li1
     console.log(p)
-               return ( <div>
+               return ( <div style={{marginTop:"4%"}}>
            
-           <button onClick={() =>print (p)}>print</button>
+           <MDBBtn  onClick={() =>print (p)}>Download PDF</MDBBtn>
 
        </div> );
    }

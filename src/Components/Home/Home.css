@@ -198,17 +198,6 @@ text-align: center;}
 font-size: 16px;
 }
 
-
-.Section2{  
-  /* background-image: url("https://envato-shoebox-0.imgix.net/09d0/9467-088d-42ac-bf3a-b0861f878f59/_R7A3989.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=055692387c4bc9f521c3cabf925813b2") ; */
-/* background-color:white; */
-/* background-color: rgba(25, 25, 25, 0.2);;    */
-
- /* margin: 2% 5% ; */
- /* padding: 5% 5%; */
- /* height: 3000px; */
-}
-/* Row Section */
 .row.MDBRowDetailsHome
 {margin-bottom: 2%;
 width: 111%;
@@ -521,7 +510,7 @@ div#eleven {
  width: 70%;
  float: right;
  height: 89%;
- margin-top: 1.5%;
+ margin-top: 2%;
 }
 .mapDirection{
   max-height: 490px;
@@ -575,5 +564,127 @@ div#eleven {
   }
  div .row.RowTransport{ margin-left:-59% !important;}
  .map-three span form {
-  height: 30px !important;
+  height: 40px !important;
+}
+
+/* Container */
+.grid-container{
+  display: grid;
+}
+
+
+
+/* MEDIAQUERY RESPONSIVE PLATFORME */
+@media only screen and (max-device-width: 480px){ 
+  .Tunisia-Home{
+    overflow: hidden;
+    background-attachment: fixed;
+    background-size: cover !important;
+  }
+.grid-container > div{
+  width: 100%
+}
+/* .imgNavbar { margin-top: -4%} */
+.navbar {
+  display: flex;
+  flex-wrap: nowrap !important;
+ align-items: center; 
+  }
+.navbar-collapse {
+    margin-top: 36%;
+  z-index: 2;
+  background-color: rgba(45, 151, 142, 0.9);
+  }
+.DetailsSectionHome .divers {
+      display: flex;
+      flex-wrap:wrap ;
+    }
+ .DetailsSectionHome{
+  padding: 3% 2%;
+ }
+.iconeimg1 {
+        width: 150px;
+        height: 150px;
+        font-size: 11px;
+      }
+      .TitleTop4,   .textExplore {
+    font-size: 29px;
+    width: 78%;
+    margin: 2% 9%;
+      }
+   .divers-img{
+padding: 2% !important;
+        }
+  .row.MDBRowDetailsHome {
+          width: 100% !important;
+          background-color: white;
+          padding: 1% 1%;
+          border: 1.5px solid teal;
+         margin-left: 0px !important; 
+          margin: 3% 0%;}
+  .cate-text, .cate-text-remain{ font-size: 17px !important; }
+
+  .btn.btn-outline-warning.Ripple-parent{
+    margin-left: 11px !important;
+  }
+  p{ line-height: 23px !important;
+  font-size: 16px !important;
+  }
+  .col-5 {
+    flex: 0 0 128% !important;
+  max-width: 91% !important;}
+.textColumnTopImg-Rating {
+  margin-left: 73%;
+}
+.dateColumnTop {
+  left:143px;
+}
+.contactinfo-form{ display: flex; flex-direction: column;}
+.contact-inHome , .contact-form{ width: 101%;}
+.contact-form{ margin-top: 2%;}
+.footerLinks ul {display: flex; flex-direction: column !important;
+  margin-left: -38% !important; FONT-SIZE: 40px !important;line-height: 39px !important;
+}
+.textExploreTransport{
+  height: 66px;
+  font-size: 30px;
+  width: 89%;  margin: 2% 8%;
+}
+.TransportStationSearch {
+  margin-left: 15%;
+  width: 79%;
+}
+.ms-composite{top: 3px !important;}
+.map-three{display: flex; flex-wrap: wrap;}
+.map-three span form {display: flex; width: 96%; }
+div#eleven {
+  width:89%;
+  float: none;
+  height: 89%;
+  margin-top: 2%;
+  margin-left: 7%;}
+  .map-three u, .BusStationMapDistance{
+    margin-left: 14%;
+  }
+  .MicrosoftMap .NavBar_Container.compact  {
+    top: 40px !important;
+  }
+  .mapDirection{
+  margin-left: 6%;
+    margin-top: 2%;
+    width: 91%;}
+    .MuiTabs-flexContainer-45 {
+      display: flex;
+      flex-direction: column;
+  }
+  .MuiPaper-root-17.MuiPaper-elevation4-23.MuiAppBar-root-8.MuiAppBar-positionStatic-12.MuiAppBar-colorPrimary-15
+  {
+    height: 104px !important;
+  }
+  .ContainerTabs-search-4 {
+    width: 25% !important; 
+    top: 26% !important;
+  }
+  .big{ width: 92% !important;}
+  .Tunisia-HomeTransport, div.Tunisia-Articles{background-size: 227% !important;}
 }

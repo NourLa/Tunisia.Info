@@ -1,16 +1,12 @@
 const express = require("express");
-
-
 const bodyParser = require("body-parser");
 const { MongoClient, ObjectID } = require("mongodb");
 const assert = require("assert");
-
 const app = express();
 app.use(bodyParser.json());
-
 const mongoUrl = "mongodb://localhost:27017";
-const dataBase = "tunisiainfo";
-
+const dataBase = "tunisiainfo"; 
+ 
 MongoClient.connect(
   mongoUrl,
   { useNewUrlParser: true },

@@ -19,11 +19,11 @@ class Home extends Component {
   render() {
     return (
     <div className="Tunisia-Home"> 
-  
-      <NavBar />
-
+  <div class="grid-container">
+     <div> <NavBar /></div>
       {/* Section2 */}
       <div className="Section2">
+      <div class="grid-container">
         <div className="shadow-box-example z-depth-1" >
           {/*   
             <Example />
@@ -147,12 +147,12 @@ class Home extends Component {
            
         </div>
        
-        <TopArticles />
-        <Contactus />
+      <div>  <TopArticles /></div>
+      <div> <Contactus /></div> 
         <ScrollUpButton />
         <Footer />
-      </div>
-    </div>
+     </div> </div></div></div>
+   
     );
   }
 }

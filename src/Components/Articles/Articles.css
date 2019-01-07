@@ -350,3 +350,7 @@ font-size: 22px;}
     border: none !important;
     text-decoration: underline;
     font-weight: 600;}
+    @media only screen and (max-device-width: 480px){ 
+    .For-AddLAbel{ height: 37px !important;}
+    .shadow-box-sommaire{ width: 41%;}
+    }

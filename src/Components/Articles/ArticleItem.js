@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { List, Icon, TextArea } from 'semantic-ui-react';
-import {  MDBBtn } from 'mdbreact';
 import { Link } from "react-router-dom";
 import { Grid, Image } from 'semantic-ui-react';
 import PrintArticle from '../Articles/PrintArticle'
@@ -9,7 +8,7 @@ import NavbarPage from '../NavBar/NavBar';
 import EditModal from './EditModal';
 
 
-class ArticleItem extends React.Component {
+class ArticleItem extends Component {
 
   render() {
     let data=this.props.article
@@ -84,6 +83,7 @@ class ArticleItem extends React.Component {
             <div className="DetailsIntroductionArticle">
               <div className="labeltitleArticle">
                  <label>Introduction</label>
+
              <EditModal f={r}/>
           
                 </div>
@@ -95,6 +95,9 @@ class ArticleItem extends React.Component {
           </Grid.Column>
           <Grid.Column width={3} >
             <div className="OperationsArticle">
+            <span className="cate-text">
+                <span className="cate-text-first">O</span>
+                <span className="cate-text-remain">Peration</span></span>
           <PrintArticle li1={r} /> 
           {/* <button onClick={print()}>print</button> */}
 
